@@ -19,7 +19,6 @@ class PageRank():
             print "Iteration " + str(i)
             print r
             dif = norm(r-rold)
-            # print dif
             if dif < tol:
                 return r
             rold = r
